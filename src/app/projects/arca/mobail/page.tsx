@@ -17,7 +17,7 @@ const SPREADS_DATA = [
   leftText: 'Arca mobail (mobile sculpture) ialah sejenis arca gantung yang bahagian-bahagiannya direka untuk bergerak bebas akibat arus udara, sentuhan atau tenaga lain. Diperkenalkan oleh pengarca Amerika Alexander Calder pada awal tahun 1930-an, mobail menggabungkan prinsip keseimbangan, pergerakan dan ruang dalam satu komposisi yang dinamik dan sentiasa berubah.',
   rightText1: 'Calder mencipta istilah "mobile" selepas Marcel Duchamp menggunakannya untuk menggambarkan karya-karya Calder yang bergerak. Mobail berbeza daripada arca statik kerana ia menjadikan masa dan pergerakan sebagai elemen seni yang penting — setiap kedudukan bahagian yang bergerak menghasilkan komposisi visual yang berbeza dan unik.',
   rightText2: 'Dalam konteks pendidikan seni visual, arca mobail mengajar pelajar tentang prinsip keseimbangan, berat dan daya graviti, serta bagaimana pergerakan boleh menjadi elemen estetika yang bermakna dalam karya seni tiga dimensi.',
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_428ad3abf-1789669528326.png",
+  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_48d93537b-1789743580371.png",
   imageAlt: 'Lobster Trap and Fish Tail karya Alexander Calder 1939 contoh arca mobail klasik'
 },
 {
@@ -37,7 +37,7 @@ const SPREADS_DATA = [
   { num: 'C', title: 'Keseimbangan Visual', desc: 'Keseimbangan yang teliti antara bahagian-bahagian mencerminkan prinsip harmoni dan keseimbangan dalam alam semula jadi.' },
   { num: 'D', title: 'Interaksi dengan Persekitaran', desc: 'Angin, cahaya dan pergerakan manusia di sekitar arca mempengaruhi pergerakan mobail, menjadikan persekitaran sebahagian daripada karya.' }],
 
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_471febd60-1789669528387.png",
+  imageUrl: "https://images.unsplash.com/photo-1672410714487-4eae1935089f",
   imageAlt: 'Arca mobail menunjukkan ciri-ciri keseimbangan dan pergerakan bebas'
 },
 {
@@ -73,7 +73,7 @@ const SPREADS_DATA = [
   rightText1: 'Permainan cahaya dan bayang yang dihasilkan oleh bahagian-bahagian mobail yang bergerak menambahkan dimensi visual yang kaya. Apabila cahaya jatuh pada permukaan logam yang bergerak, ia menghasilkan pantulan dan bayang yang sentiasa berubah, mewujudkan persembahan cahaya yang hidup dan dinamik.',
   rightText2: 'Prinsip keseimbangan yang menjadi asas mobail mencerminkan keseimbangan alam semula jadi — seperti dahan pokok yang berayun dalam angin atau burung yang terbang dalam keseimbangan sempurna. Hubungan antara mobail dan angin menjadikan alam semula jadi sebahagian daripada karya seni itu sendiri.',
   rightText3: 'Dalam konteks seni kontemporari, mobail terus berkembang dengan penggunaan bahan baharu seperti plastik, kaca dan bahan komposit, serta penggabungan teknologi seperti motor dan sensor untuk menghasilkan pergerakan yang lebih kompleks dan terkawal.',
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4091be7e1-1789669528414.png",
+  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_442385159-1789743581222.png",
   imageAlt: 'Nilai estetika arca mobail melalui pergerakan dan keseimbangan'
 }];
 
@@ -81,21 +81,21 @@ const SPREADS_DATA = [
 const BAHAN_DATA = [
 { category: 'Bahan Utama', items: [
   { name: 'Kepingan Aluminium', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_141e97119-1767962094922.png", imageAlt: 'Kepingan aluminium nipis untuk bahagian mobail' },
-  { name: 'Kepingan Gangsa', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_14d7befd4-1768657918833.png", imageAlt: 'Kepingan gangsa untuk bahagian mobail' },
+  { name: 'Kepingan Gangsa', imageUrl: "https://images.unsplash.com/photo-1699623584050-4580c4c11888", imageAlt: 'Kepingan gangsa untuk bahagian mobail' },
   { name: 'Kayu Ringan (Balsa)', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4cef04808-1789579165967.png", imageAlt: 'Kayu balsa ringan untuk bahagian mobail' },
   { name: 'Plastik Akrilik', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1467c7987-1767706001127.png", imageAlt: 'Plastik akrilik untuk bahagian mobail berwarna' },
   { name: 'Kertas Tebal', imageUrl: "/assets/images/kertas_tebal.png", imageAlt: 'Kertas tebal untuk mobail mudah' }]
 },
 { category: 'Bahan Penyambung', items: [
-  { name: 'Wayar Keluli', imageUrl: "https://images.unsplash.com/photo-1712600096342-0445dbb13c20", imageAlt: 'Wayar keluli untuk menghubungkan bahagian mobail' },
+  { name: 'Wayar Keluli', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_12d515376-1775220338098.png", imageAlt: 'Wayar keluli untuk menghubungkan bahagian mobail' },
   { name: 'Wayar Tembaga', imageUrl: "/assets/images/wayar_tembaga.png", imageAlt: 'Wayar tembaga fleksibel untuk mobail' },
   { name: 'Tali Nilon', imageUrl: "https://images.unsplash.com/photo-1638358599022-45c6565876db", imageAlt: 'Tali nilon kuat untuk menggantung bahagian' },
-  { name: 'Kait & Gelung Logam', imageUrl: "https://images.unsplash.com/photo-1635854352854-5e723cd9a579", imageAlt: 'Kait dan gelung untuk sambungan mobail' }]
+  { name: 'Kait & Gelung Logam', imageUrl: "https://images.unsplash.com/photo-1525972231415-e52a7a56c905", imageAlt: 'Kait dan gelung untuk sambungan mobail' }]
 },
 { category: 'Alatan', items: [
   { name: 'Gunting Logam', imageUrl: "/assets/images/gunting_logam.png", imageAlt: 'Gunting logam untuk memotong kepingan logam' },
   { name: 'Tang Bulat', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1cbef45eb-1772075958495.png", imageAlt: 'Tang bulat untuk membentuk wayar' },
-  { name: 'Penebuk Lubang', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_142f32774-1773172749179.png", imageAlt: 'Penebuk lubang untuk membuat lubang gantung' },
+  { name: 'Penebuk Lubang', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_42a52131f-1789743581782.png", imageAlt: 'Penebuk lubang untuk membuat lubang gantung' },
   { name: 'Penimbang Dacing', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1be5c9f3f-1772664447658.png", imageAlt: 'Penimbang untuk mengukur berat bahagian' }]
 },
 { category: 'Bahan Kemasan', items: [
@@ -128,7 +128,7 @@ const KARYA_DATA = [
   artist: 'George Rickey',
   year: '1965',
   desc: 'Mobail keluli tahan karat karya Rickey yang bergerak dengan sangat perlahan dan elegan mengikut angin semula jadi, menggambarkan keseimbangan sempurna antara berat dan pergerakan.',
-  imageUrl: "https://images.unsplash.com/photo-1601105610773-a0c8decaa9d9",
+  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_41dd9cd80-1789604408595.png",
   imageAlt: 'Mobail keluli tahan karat George Rickey bergerak perlahan dan elegan mengikut angin'
 },
 {
@@ -136,7 +136,7 @@ const KARYA_DATA = [
   artist: 'Len Lye',
   year: '1979',
   desc: 'Mobail keluli bergetar karya Len Lye yang menggunakan getaran dan pergerakan halus untuk mewujudkan kesan visual yang hipnotik, menggabungkan seni kinetik dengan eksplorasi masa dan tenaga.',
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_44cf67f63-1789669528389.png",
+  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4ae858181-1789743580367.png",
   imageAlt: 'Mobail keluli bergetar Len Lye 1979 menggunakan getaran untuk kesan visual hipnotik'
 }];
 

@@ -75,7 +75,7 @@ const SPREADS_DATA = [
   'Selain itu, nilai estetika diorama turut berkait dengan keaslian idea, kreativiti naratif dan identiti budaya yang ditampilkan. Pemilihan tema, susunan elemen dan perincian yang teliti dapat memberikan makna yang lebih mendalam kepada karya, khususnya apabila diorama menggambarkan warisan budaya atau peristiwa bersejarah.',
   rightText3:
   'Dengan demikian, diorama bukan sekadar replika visual, tetapi dapat berfungsi sebagai karya seni yang menggabungkan aspek keindahan, kreativiti, naratif dan nilai budaya yang tinggi.',
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_47086a5b9-1789737413984.png",
+  imageUrl: "https://images.unsplash.com/photo-1662092560483-99c5877a9fd6",
   imageAlt: 'Artistic diorama with detailed miniature scene showing aesthetic composition and craftsmanship'
 }];
 

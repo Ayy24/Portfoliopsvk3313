@@ -95,7 +95,7 @@ const BAHAN_DATA = [
   category: 'Bahan Hiasan',
   items: [
   { name: 'Cat akrilik / penanda warna', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_16346260c-1784125766783.png", imageAlt: 'Tubes of acrylic paint in various colours for decorating origami' },
-  { name: 'Stiker & cap cop', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4bcf1635c-1789737132023.png", imageAlt: 'Decorative stickers and rubber stamps for embellishing origami paper' },
+  { name: 'Stiker & cap cop', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_13a10cb4b-1778685372995.png", imageAlt: 'Decorative stickers and rubber stamps for embellishing origami paper' },
   { name: 'Benang & tali', imageUrl: "https://images.unsplash.com/photo-1581872553286-2746c6a8b295", imageAlt: 'Thread and string for hanging origami decorations' },
   { name: 'Manik-manik kecil', imageUrl: "https://images.unsplash.com/photo-1708689464273-0cc9ce273dd3", imageAlt: 'Small beads for adding decorative details to origami' }]
 },

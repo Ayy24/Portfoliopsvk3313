@@ -75,26 +75,26 @@ const SPREADS_DATA = [
 const BAHAN_DATA = [
 { category: 'Bahan Struktur', items: [
   { name: 'Rangka Keluli', imageUrl: "https://images.unsplash.com/photo-1619172800038-786b7d601c89", imageAlt: 'Rangka keluli untuk struktur instalasi berskala besar' },
-  { name: 'Kayu Lapis & MDF', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1e20db0a5-1770075501904.png", imageAlt: 'Kayu lapis dan MDF untuk panel instalasi' },
-  { name: 'Plastik Akrilik', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1dae17abc-1772127311940.png", imageAlt: 'Plastik akrilik transparen untuk instalasi cahaya' },
-  { name: 'Cermin', imageUrl: "https://images.unsplash.com/photo-1605585386453-dbbb7d2dc0d7", imageAlt: 'Cermin untuk instalasi reflektif dan immersive' },
+  { name: 'Kayu Lapis & MDF', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1ee4c19eb-1773179374457.png", imageAlt: 'Kayu lapis dan MDF untuk panel instalasi' },
+  { name: 'Plastik Akrilik', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_120140a67-1767525918530.png", imageAlt: 'Plastik akrilik transparen untuk instalasi cahaya' },
+  { name: 'Cermin', imageUrl: "https://images.unsplash.com/photo-1508610784997-16dcaa57dd65", imageAlt: 'Cermin untuk instalasi reflektif dan immersive' },
   { name: 'Kain & Tekstil', imageUrl: "https://images.unsplash.com/photo-1705414435607-902a49e6d2e3", imageAlt: 'Kain dan tekstil untuk instalasi lembut' }]
 },
 { category: 'Bahan Cahaya & Elektronik', items: [
-  { name: 'Lampu LED', imageUrl: "https://images.unsplash.com/photo-1677577943889-dbf867644155", imageAlt: 'Lampu LED pelbagai warna untuk instalasi cahaya' },
-  { name: 'Projektor Video', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_19fad1b61-1767734220231.png", imageAlt: 'Projektor video untuk instalasi media baharu' },
-  { name: 'Sensor Gerak', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1426c31e8-1768550974276.png", imageAlt: 'Sensor gerak untuk instalasi interaktif' },
-  { name: 'Mikrokontroler', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_13dd7a928-1770571563602.png", imageAlt: 'Mikrokontroler untuk kawalan instalasi digital' }]
+  { name: 'Lampu LED', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_180693732-1768405883874.png", imageAlt: 'Lampu LED pelbagai warna untuk instalasi cahaya' },
+  { name: 'Projektor Video', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1a1d9be14-1767516382705.png", imageAlt: 'Projektor video untuk instalasi media baharu' },
+  { name: 'Sensor Gerak', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1b51d8bf1-1767789403058.png", imageAlt: 'Sensor gerak untuk instalasi interaktif' },
+  { name: 'Mikrokontroler', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_46ed38066-1789743581297.png", imageAlt: 'Mikrokontroler untuk kawalan instalasi digital' }]
 },
 { category: 'Objek & Bahan Ditemui', items: [
   { name: 'Objek Seharian', imageUrl: "/assets/images/objek_seharian.png", imageAlt: 'Objek seharian seperti cawan, botol dan kerusi untuk instalasi konseptual' },
   { name: 'Bahan Organik', imageUrl: "/assets/images/bahan_organik.png", imageAlt: 'Bahan organik seperti daun kering, ranting dan biji benih untuk instalasi alam' },
-  { name: 'Tali & Benang', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_105b0d53f-1774267269510.png", imageAlt: 'Tali dan benang untuk instalasi tekstil' },
+  { name: 'Tali & Benang', imageUrl: "https://images.unsplash.com/photo-1657862158458-20bd8d1330ae", imageAlt: 'Tali dan benang untuk instalasi tekstil' },
   { name: 'Kertas & Karton', imageUrl: "/assets/images/kertas_karton.png", imageAlt: 'Kertas dan karton pelbagai jenis untuk instalasi ringan' }]
 },
 { category: 'Bahan Kemasan & Audio', items: [
   { name: 'Cat Semburan', imageUrl: "https://images.unsplash.com/photo-1610493471869-a6e3da6c6713", imageAlt: 'Cat semburan untuk kemasan instalasi' },
-  { name: 'Pembesar Suara', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1693e410c-1783861132895.png", imageAlt: 'Pembesar suara untuk instalasi bunyi' },
+  { name: 'Pembesar Suara', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_153753bc7-1785997389894.png", imageAlt: 'Pembesar suara untuk instalasi bunyi' },
   { name: 'Gam & Pelekat', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_19776a274-1786010612675.png", imageAlt: 'Gam dan pelekat untuk menyambung elemen instalasi' },
   { name: 'Vernish & Pelindung', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1780f2544-1783942439186.png", imageAlt: 'Vernish dan bahan pelindung untuk kemasan instalasi' }]
 }];
@@ -113,7 +113,7 @@ const KARYA_DATA = [
   artist: 'Olafur Eliasson',
   year: '2003',
   desc: 'Instalasi berskala monumental di Turbine Hall Tate Modern London, menampilkan matahari tiruan daripada lampu mono-frequency dan cermin siling yang memantulkan pengunjung, menarik 2 juta pelawat.',
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_484977660-1789669529097.png",
+  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_43dd9a95d-1789743585602.png",
   imageAlt: 'The Weather Project Olafur Eliasson 2003 instalasi matahari tiruan di Tate Modern London'
 },
 {

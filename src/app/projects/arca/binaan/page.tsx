@@ -73,7 +73,7 @@ const SPREADS_DATA = [
   rightText1: 'Penggunaan pelbagai bahan dalam satu karya menghasilkan kekayaan tekstur, warna dan kualiti permukaan yang tidak dapat dicapai melalui medium tunggal. Kontras antara bahan yang berbeza — logam dan kayu, kasar dan halus, berkilat dan kusam — mewujudkan dialog visual yang menarik dan kompleks.',
   rightText2: 'Arca binaan sering mencerminkan nilai-nilai zaman ia dihasilkan — penggunaan bahan industri dalam Konstruktivisme mencerminkan semangat kemajuan teknologi, manakala penggunaan bahan kitar semula dalam arca binaan kontemporari mencerminkan kesedaran alam sekitar dan kritik terhadap budaya pengguna.',
   rightText3: 'Dalam konteks seni Malaysia, arca binaan menawarkan peluang untuk menggabungkan bahan dan teknik tradisional dengan pendekatan moden. Penggunaan bahan tempatan seperti rotan, buluh dan kayu tropika dalam arca binaan mewujudkan karya yang mencerminkan identiti dan warisan budaya Malaysia.',
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4915d1749-1789669528400.png",
+  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4e2eaad20-1789743581322.png",
   imageAlt: 'Nilai estetika arca binaan melalui pendedahan struktur dan proses pembinaan'
 }];
 
@@ -83,24 +83,24 @@ const BAHAN_DATA = [
   { name: 'Kepingan Keluli', imageUrl: "https://images.unsplash.com/photo-1676377049135-44ff7e9ce75c", imageAlt: 'Kepingan keluli untuk arca binaan' },
   { name: 'Tiub Aluminium', imageUrl: "https://images.unsplash.com/photo-1656546106266-5eb910ebafda", imageAlt: 'Tiub aluminium untuk struktur arca binaan' },
   { name: 'Rod Besi', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_10797cfa1-1772061304039.png", imageAlt: 'Rod besi untuk rangka arca binaan' },
-  { name: 'Wayar Keluli', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_108bddc5a-1775392824453.png", imageAlt: 'Wayar keluli untuk pengikatan dan struktur' }]
+  { name: 'Wayar Keluli', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1b058f0b1-1766804551838.png", imageAlt: 'Wayar keluli untuk pengikatan dan struktur' }]
 },
 { category: 'Bahan Kayu & Organik', items: [
-  { name: 'Papan Kayu Keras', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4135e3e7e-1789601290285.png", imageAlt: 'Papan kayu keras untuk arca binaan' },
+  { name: 'Papan Kayu Keras', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_12a068267-1779380389287.png", imageAlt: 'Papan kayu keras untuk arca binaan' },
   { name: 'Buluh', imageUrl: "/assets/images/buluh_bamboo.png", imageAlt: 'Buluh (bamboo) untuk arca binaan tradisional' },
   { name: 'Rotan', imageUrl: "/assets/images/rotan_rattan.png", imageAlt: 'Rotan (rattan) untuk arca binaan anyaman' }]
 },
 { category: 'Alatan Pembinaan', items: [
   { name: 'Mesin Kimpalan', imageUrl: "https://images.unsplash.com/photo-1683470156390-bfbad8f229c2", imageAlt: 'Mesin kimpalan untuk menyambung logam' },
-  { name: 'Gergaji Jigsaw', imageUrl: "https://images.unsplash.com/photo-1687648347382-d33b79c30d90", imageAlt: 'Gergaji jigsaw untuk memotong bahan' },
+  { name: 'Gergaji Jigsaw', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1253939cd-1765702728839.png", imageAlt: 'Gergaji jigsaw untuk memotong bahan' },
   { name: 'Gerudi Elektrik', imageUrl: "https://images.unsplash.com/photo-1548335497-14c1226df130", imageAlt: 'Gerudi elektrik untuk membuat lubang' },
   { name: 'Skru & Bolt', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_198bf645b-1772274909404.png", imageAlt: 'Skru dan bolt untuk penyambungan mekanikal' }]
 },
 { category: 'Bahan Penyambung & Kemasan', items: [
-  { name: 'Gam Epoksi', imageUrl: "https://images.unsplash.com/photo-1605518872895-27deda83c6e8", imageAlt: 'Gam epoksi untuk menyambung bahan berbeza' },
-  { name: 'Cat Semburan', imageUrl: "https://images.unsplash.com/photo-1610493471869-a6e3da6c6713", imageAlt: 'Cat semburan untuk kemasan arca binaan' },
+  { name: 'Gam Epoksi', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_146991d08-1766499900195.png", imageAlt: 'Gam epoksi untuk menyambung bahan berbeza' },
+  { name: 'Cat Semburan', imageUrl: "https://images.unsplash.com/photo-1699975769002-89e002cf0038", imageAlt: 'Cat semburan untuk kemasan arca binaan' },
   { name: 'Vernish Kayu', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_18b6e04ae-1783845896993.png", imageAlt: 'Vernish kayu untuk kemasan bahagian kayu' },
-  { name: 'Primer Anti-Karat', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_18a42edf4-1782716883152.png", imageAlt: 'Primer anti-karat untuk melindungi logam' }]
+  { name: 'Primer Anti-Karat', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1eff8bf22-1782716884671.png", imageAlt: 'Primer anti-karat untuk melindungi logam' }]
 }];
 
 
@@ -134,7 +134,7 @@ const KARYA_DATA = [
   artist: 'Naum Gabo',
   year: '1942–1943',
   desc: 'Arca binaan daripada plastik dan benang nilon yang menggambarkan bentuk tiga dimensi melalui garisan-garisan halus yang direntang, menunjukkan keupayaan bahan moden dalam menghasilkan bentuk abstrak yang kompleks.',
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4124b1d2e-1789669528404.png",
+  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4d1622612-1789743579437.png",
   imageAlt: 'Linear Construction No. 1 Naum Gabo 1942 arca binaan plastik dan benang nilon bentuk abstrak'
 }];
 

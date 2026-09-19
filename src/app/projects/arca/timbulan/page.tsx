@@ -138,7 +138,7 @@ const KARYA_DATA = [
   artist: 'Lorenzo Ghiberti',
   year: '1425–1452 M',
   desc: 'Panel gangsa alto-relief yang menghiasi pintu Baptisteri Florence, menggambarkan sepuluh kisah Perjanjian Lama dengan teknik perspektif linear yang revolusioner dalam sejarah seni Renaissance.',
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_41ae670f1-1789669531697.png",
+  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_401cecf29-1789743581305.png",
   imageAlt: 'Lorenzo Ghiberti Gates of Paradise bronze relief panels on Florence Baptistery doors showing Old Testament scenes'
 }];
 
@@ -310,6 +310,28 @@ export default function ArcaTimbulanPage() {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           fill="#a02020"
           opacity="0.9" />
         <path
@@ -336,6 +358,28 @@ export default function ArcaTimbulanPage() {
              C 54 456, 64 408, 74 370
              C 84 332, 58 294, 68 254
              C 78 214, 62 228, 80 190 Z"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -433,6 +477,28 @@ export default function ArcaTimbulanPage() {
              C 54 456, 64 408, 74 370
              C 84 332, 58 294, 68 254
              C 78 214, 62 228, 80 190 Z"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

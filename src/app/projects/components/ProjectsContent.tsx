@@ -159,9 +159,9 @@ export default function ProjectsContent() {
 
         {/* Projects grid */}
         {/* BENTO AUDIT: 6 cards in 3-col grid
-              Row 1: [col-1: Pavilion Kayu cs-1] [col-2: Rumah Bata cs-1] [col-3: Bumbung Perabung cs-1]
-              Row 2: [col-1: Kolom Konkrit cs-1] [col-2: Tapak Bangunan cs-1] [col-3: Projek Akhir cs-1]
-              Placed 6/6 ✓ */}
+               Row 1: [col-1: Pavilion Kayu cs-1] [col-2: Rumah Bata cs-1] [col-3: Bumbung Perabung cs-1]
+               Row 2: [col-1: Kolom Konkrit cs-1] [col-2: Tapak Bangunan cs-1] [col-3: Projek Akhir cs-1]
+               Placed 6/6 ✓ */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {filtered.map((project, idx) => (
           /* Card idx: {idx} */

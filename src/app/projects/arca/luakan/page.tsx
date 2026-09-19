@@ -17,7 +17,7 @@ const SPREADS_DATA = [
   leftText: 'Arca luakan (intaglio atau sunken relief) merupakan sejenis arca yang dihasilkan dengan mengukir atau menekan imej ke dalam permukaan bahan, mewujudkan bentuk yang tenggelam di bawah paras permukaan asal. Berbeza dengan arca timbulan yang menonjol keluar, arca luakan menghasilkan kesan kedalaman melalui lekukan dan cekungan pada permukaan bahan.',
   rightText1: 'Teknik arca luakan telah digunakan sejak zaman Mesir Purba, khususnya dalam penghasilan hieroglif dan ukiran dinding kuil. Ia juga digunakan secara meluas dalam penghasilan cop mohor, duit syiling, dan ukiran batu permata (gemstone engraving). Bayangan yang terhasil dari cahaya yang jatuh ke dalam lekukan memberikan kedalaman visual yang unik dan dramatik.',
   rightText2: 'Dalam konteks seni visual Malaysia, arca luakan dapat dilihat pada ukiran kayu tradisional, terutamanya pada panel dinding masjid dan istana Melayu, di mana motif flora dan geometri diukir masuk ke dalam permukaan kayu untuk menghasilkan hiasan yang halus dan berkesan.',
-  imageUrl: "https://images.unsplash.com/photo-1607501222928-d035765d7ea1",
+  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4833894e9-1789743582387.png",
   imageAlt: 'Hieroglif Mesir purba diukir masuk ke dalam batu sebagai contoh arca luakan'
 },
 {
@@ -73,17 +73,17 @@ const SPREADS_DATA = [
   rightText1: 'Kehalusan garisan dan ketepatan ukiran dalam arca luakan mencerminkan kemahiran teknikal yang tinggi. Setiap lekukan mesti dihasilkan dengan kawalan yang tepat untuk memastikan keseragaman kedalaman dan kejelasan imej. Kualiti ini menjadikan arca luakan sebagai medium yang dihormati dalam tradisi seni ukiran dunia.',
   rightText2: 'Dari segi nilai budaya, arca luakan sering digunakan untuk merakam maklumat penting, seperti hieroglif Mesir yang mendokumentasikan sejarah dan kepercayaan agama. Fungsi dokumentasi ini menambahkan nilai sejarah dan arkeologi kepada karya arca luakan, menjadikannya bukan sahaja karya seni tetapi juga sumber ilmu pengetahuan.',
   rightText3: 'Dalam seni kontemporari, teknik intaglio terus digunakan dalam seni cetak (printmaking) sebagai medium ekspresi artistik. Pengkarya moden menggabungkan teknik tradisional dengan pendekatan konseptual baharu, menghasilkan karya yang menghormati warisan teknikal sambil menyampaikan mesej kontemporari yang relevan.',
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_145f2d3f5-1772143843419.png",
+  imageUrl: "https://images.unsplash.com/photo-1659617949840-77dee2dbe281",
   imageAlt: 'Contoh cetakan intaglio menunjukkan nilai estetika arca luakan dalam seni cetak'
 }];
 
 
 const BAHAN_DATA = [
 { category: 'Bahan Asas', items: [
-  { name: 'Batu Granit', imageUrl: "https://images.unsplash.com/photo-1596069865046-19bd5dd641cd", imageAlt: 'Batu granit untuk ukiran intaglio' },
+  { name: 'Batu Granit', imageUrl: "https://images.unsplash.com/photo-1708168246885-8534ce84f8ea", imageAlt: 'Batu granit untuk ukiran intaglio' },
   { name: 'Plat Tembaga', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_159c98019-1772155416271.png", imageAlt: 'Plat tembaga untuk teknik etching' },
-  { name: 'Plat Zink', imageUrl: "https://images.unsplash.com/photo-1572451760336-6926e6e1a8e8", imageAlt: 'Plat zink untuk seni cetak intaglio' },
-  { name: 'Kayu Keras', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4fbbdcc5e-1789601291102.png", imageAlt: 'Kayu keras untuk ukiran luakan' },
+  { name: 'Plat Zink', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_11f43c8f7-1765757179350.png", imageAlt: 'Plat zink untuk seni cetak intaglio' },
+  { name: 'Kayu Keras', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_15d561755-1773798898772.png", imageAlt: 'Kayu keras untuk ukiran luakan' },
   { name: 'Tanah Liat', imageUrl: "https://images.unsplash.com/photo-1617565824140-5e511906b62c", imageAlt: 'Tanah liat untuk tekanan intaglio' }]
 },
 { category: 'Alatan Ukiran', items: [
@@ -103,7 +103,7 @@ const BAHAN_DATA = [
   { name: 'Bahan Penggilap Logam', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1ffbc2ca0-1765350636703.png", imageAlt: 'Bahan penggilap untuk kemasan logam' },
   { name: 'Patina Kimia', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_14fe7dd73-1772114171459.png", imageAlt: 'Patina kimia untuk kemasan arca luakan' },
   { name: 'Vernish Pelindung', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1fd1214bf-1778089978155.png", imageAlt: 'Vernish untuk melindungi permukaan' },
-  { name: 'Kertas Pasir Halus', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1f56c9644-1772173143536.png", imageAlt: 'Kertas pasir halus untuk menghaluskan permukaan' }]
+  { name: 'Kertas Pasir Halus', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_494e6912f-1789581759930.png", imageAlt: 'Kertas pasir halus untuk menghaluskan permukaan' }]
 }];
 
 
@@ -274,7 +274,7 @@ function ClosedBook({ isOpening, isClosing }: {isOpening: boolean;isClosing: boo
         <div style={{ position: 'absolute', inset: 12, border: '1.5px solid rgba(255,255,255,0.3)', borderRadius: 4, pointerEvents: 'none' }} />
         <div style={{ position: 'absolute', top: '18%', left: '50%', transform: 'translateX(-50%)', width: '72%', height: '48%', borderRadius: 6, overflow: 'hidden', boxShadow: '0 8px 24px rgba(0,0,0,0.4)', border: '2px solid rgba(255,255,255,0.25)' }}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="https://images.unsplash.com/photo-1664143999514-9610c291e36f" alt="Hieroglif Mesir purba sebagai contoh arca luakan pada kulit buku" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+          <img src="https://images.unsplash.com/photo-1675371626735-5d7bb2d7e0a5" alt="Hieroglif Mesir purba sebagai contoh arca luakan pada kulit buku" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
         </div>
         <div style={{ position: 'absolute', bottom: '14%', left: 0, right: 0, textAlign: 'center', padding: '0 16px' }}>
           <div style={{ fontFamily: 'Georgia, serif', fontSize: 'clamp(0.85rem, 2vw, 1.2rem)', fontWeight: 900, color: 'rgba(220,240,255,0.97)', letterSpacing: '0.15em', textShadow: '0 2px 12px rgba(0,0,0,0.5)' }}>ARCA LUAKAN</div>

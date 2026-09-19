@@ -639,43 +639,44 @@ export default function ArcaPage() {
         </div>
       </div>
 
-      {/* Next page button — same style as kraf page */}
+      {/* Next page button — top right, same level as back button */}
       <button
         onClick={handleNavClick}
         aria-label="Navigate to next page"
         style={{
           position: 'fixed',
-          bottom: 32,
-          right: 32,
+          top: 24,
+          right: 24,
           zIndex: 50,
-          width: 56,
-          height: 56,
-          borderRadius: '50%',
-          border: 'none',
-          cursor: 'pointer',
-          background: 'linear-gradient(135deg, #C09060 0%, #A07040 100%)',
-          boxShadow: '0 4px 16px rgba(0,0,0,0.35), 0 1px 0 rgba(255,255,255,0.2) inset',
           display: 'flex',
           alignItems: 'center',
-          justifyContent: 'center',
+          gap: 8,
+          padding: '8px 16px',
+          borderRadius: '12px',
+          border: 'none',
+          cursor: 'pointer',
+          background: 'var(--sticker-white, #FFFEF5)',
+          boxShadow: '2px 4px 12px rgba(0,0,0,0.25)',
+          color: '#3D2B1F',
+          fontWeight: 700,
+          fontSize: '0.85rem',
           transition: 'transform 0.18s cubic-bezier(0.34,1.56,0.64,1), box-shadow 0.18s ease',
-          transform: btnPressed ? 'scale(0.88)' : undefined,
+          transform: btnPressed ? 'scale(0.95)' : undefined,
         }}
         onMouseEnter={(e) => {
           if (!btnPressed) {
-            (e.currentTarget as HTMLButtonElement).style.transform = 'scale(1.15)';
-            (e.currentTarget as HTMLButtonElement).style.boxShadow = '0 8px 28px rgba(0,0,0,0.4), 0 0 20px rgba(192,144,96,0.45), 0 1px 0 rgba(255,255,255,0.2) inset';
+            (e.currentTarget as HTMLButtonElement).style.transform = 'scale(1.05)';
           }
         }}
         onMouseLeave={(e) => {
           if (!btnPressed) {
             (e.currentTarget as HTMLButtonElement).style.transform = 'scale(1)';
-            (e.currentTarget as HTMLButtonElement).style.boxShadow = '0 4px 16px rgba(0,0,0,0.35), 0 1px 0 rgba(255,255,255,0.2) inset';
           }
         }}
       >
-        <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
-          <path d="M5 11H17M17 11L11 5M17 11L11 17" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/>
+        Seterusnya
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <path d="M6 4L10 8L6 12" stroke="#3D2B1F" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
       </button>
 
