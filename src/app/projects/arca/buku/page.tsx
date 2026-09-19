@@ -25,7 +25,7 @@ const BOOKS: Book[] = [
   spineColor: '#7B241C',
   content:
   'Sejarah arca bermula sejak zaman prasejarah apabila manusia mula menghasilkan patung dan ukiran daripada batu, tanah liat dan tulang sebagai objek ritual, kepercayaan dan ekspresi diri. Tamadun-tamadun awal seperti Mesir, Greek, Rom dan China telah menghasilkan arca yang mencerminkan nilai keagamaan, politik dan estetika masyarakat mereka. Di Malaysia, tradisi arca berkembang melalui pengaruh Hindu-Buddha, Islam dan warisan tempatan, menghasilkan ukiran kayu, tembikar dan patung yang kaya dengan makna budaya. Pada era moden, arca berkembang merentasi pelbagai gaya dan medium, daripada realisme kepada abstrak, daripada bahan tradisional kepada bahan industri dan digital.',
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1584a82db-1766969274893.png",
+  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_42c4d8c6c-1789740026295.png",
   imageAlt: 'Ancient stone sculpture and carved reliefs from classical civilisation displayed in a museum'
 },
 {
@@ -651,8 +651,8 @@ export default function ArcaBukuPage() {
         aria-label="Navigate to next page"
         style={{
           position: 'fixed',
-          bottom: 32,
-          right: 32,
+          top: 24,
+          right: 24,
           zIndex: 50,
           width: 56,
           height: 56,

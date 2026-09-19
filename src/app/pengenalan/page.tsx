@@ -285,8 +285,8 @@ export default function PengenalanPage() {
         ))}
       </div>
 
-      {/* Navigation buttons — bottom */}
-      <div className="relative z-10 flex justify-between items-center px-8 pb-8 pt-2">
+      {/* Navigation buttons — top right */}
+      <div className="absolute top-6 right-6 z-20 flex items-center gap-3">
         <Link href="/desk">
           <button
             style={{
@@ -297,10 +297,10 @@ export default function PengenalanPage() {
               backdropFilter: 'blur(8px)',
               border: '1.5px solid rgba(210,170,100,0.4)',
               borderRadius: '50px',
-              padding: '12px 28px',
+              padding: '10px 22px',
               fontFamily: '"Segoe UI", sans-serif',
               fontWeight: 700,
-              fontSize: '15px',
+              fontSize: '14px',
               color: '#F5E6C8',
               cursor: 'pointer',
               boxShadow: '0 4px 16px rgba(0,0,0,0.3)',
@@ -332,10 +332,10 @@ export default function PengenalanPage() {
               backdropFilter: 'blur(8px)',
               border: '1.5px solid rgba(210,170,100,0.6)',
               borderRadius: '50px',
-              padding: '12px 28px',
+              padding: '10px 22px',
               fontFamily: '"Segoe UI", sans-serif',
               fontWeight: 700,
-              fontSize: '15px',
+              fontSize: '14px',
               color: '#1A0E04',
               cursor: 'pointer',
               boxShadow: '0 4px 16px rgba(0,0,0,0.3)',

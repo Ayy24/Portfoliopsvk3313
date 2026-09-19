@@ -281,13 +281,8 @@ const NavButtons = ({
   total,
   onPrev,
   onNext
-
-
-
-
-
 }: {screen: number;total: number;onPrev: () => void;onNext: () => void;}) =>
-<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12 }}>
+<div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
     {screen > 0 ?
   <button
     onClick={onPrev}
@@ -296,7 +291,7 @@ const NavButtons = ({
       background: 'rgba(255,255,255,0.08)',
       border: '1px solid rgba(255,255,255,0.2)',
       borderRadius: 50,
-      padding: '10px 20px',
+      padding: '8px 18px',
       fontSize: 13,
       fontWeight: 700,
       cursor: 'pointer',
@@ -314,7 +309,7 @@ const NavButtons = ({
       background: 'rgba(255,255,255,0.08)',
       border: '1px solid rgba(255,255,255,0.2)',
       borderRadius: 50,
-      padding: '10px 20px',
+      padding: '8px 18px',
       fontSize: 13,
       fontWeight: 700,
       textDecoration: 'none',
@@ -333,7 +328,7 @@ const NavButtons = ({
       background: 'rgba(255,216,77,0.18)',
       border: '1px solid rgba(255,216,77,0.45)',
       borderRadius: 50,
-      padding: '10px 20px',
+      padding: '8px 18px',
       fontSize: 13,
       fontWeight: 700,
       cursor: 'pointer',
@@ -352,7 +347,7 @@ const NavButtons = ({
       background: 'rgba(255,216,77,0.18)',
       border: '1px solid rgba(255,216,77,0.45)',
       borderRadius: 50,
-      padding: '10px 20px',
+      padding: '8px 18px',
       fontSize: 13,
       fontWeight: 700,
       textDecoration: 'none',
@@ -1449,8 +1444,15 @@ export default function KepentinganPSVPage() {
           
           {screenLabel}
         </div>
-        <div style={{ minWidth: 120 }}>
-          <ProgressBar current={screen} total={TOTAL_SCREENS} />
+        <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+          <div style={{ minWidth: 120 }}>
+            <ProgressBar current={screen} total={TOTAL_SCREENS} />
+          </div>
+          <NavButtons
+            screen={screen}
+            total={TOTAL_SCREENS}
+            onPrev={() => goTo(screen - 1)}
+            onNext={() => goTo(screen + 1)} />
         </div>
       </div>
 
@@ -1466,18 +1468,7 @@ export default function KepentinganPSVPage() {
         </div>
       </div>
 
-      {/* Navigation */}
-      <div
-        className="relative z-20 pb-5 px-4 pt-2"
-        style={{ borderTop: '1px solid rgba(255,255,255,0.07)' }}>
-        
-        <NavButtons
-          screen={screen}
-          total={TOTAL_SCREENS}
-          onPrev={() => goTo(screen - 1)}
-          onNext={() => goTo(screen + 1)} />
-        
-      </div>
+      {/* Navigation removed from bottom — moved to top bar */}
     </div>);
 
 }

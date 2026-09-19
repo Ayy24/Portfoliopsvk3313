@@ -705,8 +705,8 @@ export default function KrafBukuPage() {
         aria-label="Navigate to next page"
         style={{
           position: 'fixed',
-          bottom: 32,
-          right: 32,
+          top: 24,
+          right: 24,
           zIndex: 50,
           width: 56,
           height: 56,
