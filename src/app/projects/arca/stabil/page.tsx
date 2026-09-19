@@ -17,7 +17,7 @@ const SPREADS_DATA = [
   leftText: 'Arca stabail (stabile) ialah sejenis arca abstrak yang berdiri tegak di atas lantai atau dipasang pada permukaan tanpa bahagian yang bergerak. Istilah "stabile" dicipta oleh pengarca Alexander Calder untuk membezakan karya-karyanya yang statik daripada mobail yang bergerak. Arca stabail menekankan kestabilan, keteguhan dan kehadiran fizikal yang kuat dalam ruang.',
   rightText1: 'Berbeza dengan mobail yang bergantung pada pergerakan, stabail memanfaatkan berat, keseimbangan dan hubungan antara bentuk-bentuk abstrak untuk mewujudkan komposisi yang dinamik secara visual walaupun ia tidak bergerak. Bentuk-bentuk geometri dan organik yang besar sering digunakan untuk mewujudkan kehadiran yang kuat dan monumental.',
   rightText2: 'Arca stabail sering ditempatkan di ruang awam seperti taman, dataran bandar dan hadapan bangunan korporat atau institusi, berfungsi sebagai karya seni awam yang menjadi tanda aras visual dan titik tumpuan dalam persekitaran bandar.',
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_450975cee-1789738116393.png",
+  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4ec72ad5a-1789602795635.png",
   imageAlt: 'La Grande Vitesse arca stabail Alexander Calder di Grand Rapids Michigan'
 },
 {
@@ -37,7 +37,7 @@ const SPREADS_DATA = [
   { num: 'C', title: 'Stabail Monumental', desc: 'Arca stabail berskala sangat besar yang menjadi landmark atau tanda aras dalam persekitaran bandar atau institusi.' },
   { num: 'D', title: 'Stabail Meja (Table Stabile)', desc: 'Versi kecil stabail yang direka untuk ditempatkan di atas meja atau permukaan dalaman, sesuai untuk koleksi peribadi.' }],
 
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_44d80ad7b-1789738113966.png",
+  imageUrl: "https://images.unsplash.com/photo-1696180021495-e8d9886a70ed",
   imageAlt: 'Arca stabail menunjukkan ciri-ciri bentuk abstrak dan struktur statik'
 },
 {
@@ -73,32 +73,32 @@ const SPREADS_DATA = [
   rightText1: 'Permainan cahaya dan bayang pada permukaan logam stabail menghasilkan kesan visual yang dramatik dan sentiasa berubah mengikut masa dan keadaan cahaya. Permukaan yang digilap memantulkan persekitaran, manakala permukaan yang kasar atau bercat menyerap cahaya, mewujudkan kontras yang menarik.',
   rightText2: 'Skala monumental banyak arca stabail mewujudkan hubungan yang unik antara manusia dan karya seni. Penonton yang berdiri di bawah atau di sebelah stabail besar merasai kehadiran fizikal yang kuat, menjadikan pengalaman melihat stabail sebagai pengalaman fizikal dan emosional yang berbeza daripada melihat karya seni di galeri.',
   rightText3: 'Dalam konteks seni awam, stabail berfungsi sebagai titik tumpuan visual dan sosial dalam persekitaran bandar. Ia mengubah ruang awam menjadi ruang seni, mengundang interaksi dan pemerhatian daripada orang ramai yang mungkin tidak pernah mengunjungi galeri seni.',
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4529452ce-1789738116400.png",
+  imageUrl: "https://images.unsplash.com/photo-1572547927503-4670a8d4bbce",
   imageAlt: 'Nilai estetika arca stabail dalam ruang awam sebagai karya monumental'
 }];
 
 
 const BAHAN_DATA = [
 { category: 'Bahan Utama', items: [
-  { name: 'Kepingan Keluli', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4dbad9da2-1789738115009.png", imageAlt: 'Kepingan keluli untuk arca stabail' },
+  { name: 'Kepingan Keluli', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4d05da39b-1789743579601.png", imageAlt: 'Kepingan keluli untuk arca stabail' },
   { name: 'Aluminium Tebal', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1bf98fb1d-1765116632666.png", imageAlt: 'Aluminium tebal untuk stabail' },
-  { name: 'Besi Tuang', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_480da82c6-1789738114119.png", imageAlt: 'Besi tuang untuk arca stabail berat' },
-  { name: 'Gangsa', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4776fddce-1789738114182.png", imageAlt: 'Gangsa untuk arca stabail berkualiti tinggi' },
+  { name: 'Besi Tuang', imageUrl: "https://images.unsplash.com/photo-1704888894668-ca95e751df21", imageAlt: 'Besi tuang untuk arca stabail berat' },
+  { name: 'Gangsa', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_498edc1de-1789601289531.png", imageAlt: 'Gangsa untuk arca stabail berkualiti tinggi' },
   { name: 'Batu Granit', imageUrl: "https://images.unsplash.com/photo-1500522713058-19679d16413f", imageAlt: 'Batu granit untuk tapak arca stabail' }]
 },
 { category: 'Alatan Kimpalan', items: [
   { name: 'Mesin Kimpalan MIG', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_18c9d5c8e-1772488831575.png", imageAlt: 'Mesin kimpalan MIG untuk logam' },
-  { name: 'Mesin Kimpalan TIG', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_15638fa4f-1765071693856.png", imageAlt: 'Mesin kimpalan TIG untuk kerja halus' },
+  { name: 'Mesin Kimpalan TIG', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_148d92aa1-1767379280816.png", imageAlt: 'Mesin kimpalan TIG untuk kerja halus' },
   { name: 'Gerinder Sudut', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_15219762a-1772115095903.png", imageAlt: 'Gerinder sudut untuk menghaluskan kimpalan' }]
 },
 { category: 'Alatan Pembentukan', items: [
-  { name: 'Penebuk Hidraulik', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1c9999c36-1767780846633.png", imageAlt: 'Penebuk hidraulik untuk membentuk logam' },
+  { name: 'Penebuk Hidraulik', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_10ead1477-1772723914717.png", imageAlt: 'Penebuk hidraulik untuk membentuk logam' },
   { name: 'Tukul Besi', imageUrl: "/assets/images/tukul_besi.png", imageAlt: 'Tukul besi untuk kerja tempa logam' }]
 },
 { category: 'Bahan Kemasan', items: [
   { name: 'Cat Logam Tahan Karat', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1ebb8df92-1766724396966.png", imageAlt: 'Cat logam tahan karat untuk kemasan stabail' },
   { name: 'Patina Kimia', imageUrl: "https://images.unsplash.com/photo-1573875488734-e7497faf82b1", imageAlt: 'Patina kimia untuk kemasan gangsa' },
-  { name: 'Bahan Penggilap Logam', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_10078b43b-1771184118931.png", imageAlt: 'Bahan penggilap untuk kemasan logam berkilat' },
+  { name: 'Bahan Penggilap Logam', imageUrl: "https://images.unsplash.com/photo-1728533060849-e7e43303e014", imageAlt: 'Bahan penggilap untuk kemasan logam berkilat' },
   { name: 'Primer Anti-Karat', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_18a42edf4-1782716883152.png", imageAlt: 'Primer anti-karat untuk perlindungan logam' }]
 }];
 
@@ -109,7 +109,7 @@ const KARYA_DATA = [
   artist: 'Alexander Calder',
   year: '1969',
   desc: 'Arca stabail keluli merah berskala besar di Grand Rapids, Michigan, merupakan karya seni awam pertama yang dibiayai oleh National Endowment for the Arts Amerika Syarikat dan menjadi simbol bandar tersebut.',
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_498604256-1789738116646.png",
+  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4ec72ad5a-1789602795635.png",
   imageAlt: 'La Grande Vitesse Alexander Calder 1969 arca stabail keluli merah di Grand Rapids Michigan'
 },
 {
@@ -259,7 +259,7 @@ function ClosedBook({ isOpening, isClosing }: {isOpening: boolean;isClosing: boo
         <div style={{ position: 'absolute', inset: 12, border: '1.5px solid rgba(255,255,255,0.3)', borderRadius: 4, pointerEvents: 'none' }} />
         <div style={{ position: 'absolute', top: '18%', left: '50%', transform: 'translateX(-50%)', width: '72%', height: '48%', borderRadius: 6, overflow: 'hidden', boxShadow: '0 8px 24px rgba(0,0,0,0.4)', border: '2px solid rgba(255,255,255,0.25)' }}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="https://img.rocket.new/generatedImages/rocket_gen_img_4212bf6cb-1789669528406.png" alt="Arca stabil Calder pada kulit buku" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+          <img src="https://img.rocket.new/generatedImages/rocket_gen_img_439406598-1789743581315.png" alt="Arca stabil Calder pada kulit buku" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
         </div>
         <div style={{ position: 'absolute', bottom: '14%', left: 0, right: 0, textAlign: 'center', padding: '0 16px' }}>
           <div style={{ fontFamily: 'Georgia, serif', fontSize: 'clamp(0.85rem, 2vw, 1.2rem)', fontWeight: 900, color: 'rgba(240,200,255,0.97)', letterSpacing: '0.15em', textShadow: '0 2px 12px rgba(0,0,0,0.5)' }}>ARCA STABAIL</div>

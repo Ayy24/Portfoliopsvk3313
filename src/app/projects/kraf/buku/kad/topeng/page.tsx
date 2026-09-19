@@ -119,7 +119,7 @@ const BAHAN_DATA = [
 
 // ─── Contoh Karya Data ────────────────────────────────────────────────────────
 const KARYA_DATA = [
-{ title: 'Topeng Mak Yong', desc: 'Topeng yang digunakan dalam tarian Mak Yong, menggambarkan watak-watak dalam cerita rakyat Melayu.', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4ef9516f8-1789735925292.png", imageAlt: 'Traditional Mak Yong performance mask with vibrant colours and expressive Malay theatrical features' },
+{ title: 'Topeng Mak Yong', desc: 'Topeng yang digunakan dalam tarian Mak Yong, menggambarkan watak-watak dalam cerita rakyat Melayu.', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_15b54ce7a-1765346016293.png", imageAlt: 'Traditional Mak Yong performance mask with vibrant colours and expressive Malay theatrical features' },
 { title: 'Topeng Paper Mâché', desc: 'Topeng kontemporari yang dihasilkan menggunakan teknik paper mâché dengan hiasan warna-warni.', imageUrl: "https://images.unsplash.com/photo-1734725260343-ac1d7d3d5e86", imageAlt: 'Colourful paper mache mask with decorative paint and artistic finish' },
 { title: 'Topeng Kayu Ukiran', desc: 'Topeng yang diukir daripada kayu keras dengan perincian halus mencerminkan kemahiran pengkarya.', imageUrl: "https://images.unsplash.com/photo-1640172787980-1d71322b6486", imageAlt: 'Hand-carved wooden mask with detailed facial expressions and natural wood grain' },
 { title: 'Topeng Hiasan Tradisional', desc: 'Topeng hiasan tradisional yang dihiasi dengan motif flora dan fauna khas warisan budaya tempatan.', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1867a434c-1765337445382.png", imageAlt: 'Traditional decorative mask adorned with floral and fauna motifs representing local cultural heritage' }];
@@ -285,6 +285,28 @@ export default function TopengPage() {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           fill="#1a1a4e"
           opacity="0.9" />
         
@@ -313,6 +335,28 @@ export default function TopengPage() {
              C 54 456, 64 408, 74 370
              C 84 332, 58 294, 68 254
              C 78 214, 62 228, 80 190 Z"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -412,6 +456,28 @@ export default function TopengPage() {
              C 54 456, 64 408, 74 370
              C 84 332, 58 294, 68 254
              C 78 214, 62 228, 80 190 Z"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

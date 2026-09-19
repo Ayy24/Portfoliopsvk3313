@@ -47,12 +47,12 @@ const BLOCK_COLORS: Record<string, {hex: string;soft: string;text: string;}> = {
 
 // Accurate images representing each unsur seni
 const UNSUR_IMAGES: Record<string, {url: string;alt: string;}> = {
-  Garisan: { url: "https://img.rocket.new/generatedImages/rocket_gen_img_4d8c66ee2-1789672040010.png", alt: 'Garisan — pelbagai jenis garisan dalam seni visual' },
+  Garisan: { url: "https://img.rocket.new/generatedImages/rocket_gen_img_1e9e78bf9-1771428705099.png", alt: 'Garisan — pelbagai jenis garisan dalam seni visual' },
   Bentuk: { url: 'https://img.rocket.new/generatedImages/rocket_gen_img_1e9bbbe3f-1768072247113.png', alt: 'Bentuk — objek tiga dimensi dalam seni' },
   Rupa: { url: "https://images.unsplash.com/photo-1722440814495-3d2d3107a7de", alt: 'Rupa — bentuk dua dimensi dan corak geometri' },
   Warna: { url: "https://images.unsplash.com/photo-1718987629067-ba156dbe7eeb", alt: 'Warna — palet warna yang pelbagai dalam seni visual' },
-  Jalinan: { url: 'https://img.rocket.new/generatedImages/rocket_gen_img_105d4d7c1-1772159759723.png', alt: 'Jalinan — tekstur dan permukaan bahan seni' },
-  Ruang: { url: 'https://img.rocket.new/generatedImages/rocket_gen_img_1be06fa2b-1768309421248.png', alt: 'Ruang — kedalaman dan ruang dalam karya seni tiga dimensi' }
+  Jalinan: { url: "https://images.unsplash.com/photo-1683085192519-74bda6c3ab01", alt: 'Jalinan — tekstur dan permukaan bahan seni' },
+  Ruang: { url: "https://img.rocket.new/generatedImages/rocket_gen_img_48f63390f-1789743585720.png", alt: 'Ruang — kedalaman dan ruang dalam karya seni tiga dimensi' }
 };
 
 // Emoji per unsur for extra personality
@@ -67,7 +67,7 @@ const UNSUR_EMOJI: Record<string, string> = {
 
 // ─── Cute File Icon SVG ───────────────────────────────────────────────────────
 // A document/file icon: rectangular body with folded top-right corner, label on body
-function FileIcon({ label, color, size }: { label: string; color: string; size: number }) {
+function FileIcon({ label, color, size }: {label: string;color: string;size: number;}) {
   const w = size;
   const h = size * 1.28;
   const fold = size * 0.22;
@@ -91,17 +91,17 @@ function FileIcon({ label, color, size }: { label: string; color: string; size: 
   const r = size * 0.09; // corner radius
   // Body path: top-left rounded, top-right has fold cut, bottom-right rounded, bottom-left rounded
   const bodyPath = [
-    `M ${r} 0`,
-    `L ${w - fold} 0`,
-    `L ${w} ${fold}`,
-    `L ${w} ${h - r}`,
-    `Q ${w} ${h} ${w - r} ${h}`,
-    `L ${r} ${h}`,
-    `Q 0 ${h} 0 ${h - r}`,
-    `L 0 ${r}`,
-    `Q 0 0 ${r} 0`,
-    `Z`
-  ].join(' ');
+  `M ${r} 0`,
+  `L ${w - fold} 0`,
+  `L ${w} ${fold}`,
+  `L ${w} ${h - r}`,
+  `Q ${w} ${h} ${w - r} ${h}`,
+  `L ${r} ${h}`,
+  `Q 0 ${h} 0 ${h - r}`,
+  `L 0 ${r}`,
+  `Q 0 0 ${r} 0`,
+  `Z`].
+  join(' ');
 
   return (
     <svg
@@ -155,8 +155,8 @@ function FileIcon({ label, color, size }: { label: string; color: string; size: 
       <path
         d={bodyPath}
         fill={`url(#${gradId})`}
-        filter={`url(#${shadowId})`}
-      />
+        filter={`url(#${shadowId})`} />
+      
 
       {/* Gloss highlight clipped to body */}
       <g clipPath={`url(#clip-${label})`}>
@@ -167,24 +167,24 @@ function FileIcon({ label, color, size }: { label: string; color: string; size: 
       <path
         d={`M ${w - fold} 0 L ${w} ${fold} L ${w - fold} ${fold} Z`}
         fill={foldColor}
-        opacity="0.9"
-      />
+        opacity="0.9" />
+      
 
       {/* Fold crease line */}
       <path
         d={`M ${w - fold} 0 L ${w - fold} ${fold} L ${w} ${fold}`}
         stroke="rgba(255,255,255,0.45)"
         strokeWidth="0.9"
-        fill="none"
-      />
+        fill="none" />
+      
 
       {/* Subtle inner border for depth */}
       <path
         d={bodyPath}
         fill="none"
         stroke="rgba(255,255,255,0.18)"
-        strokeWidth="1.2"
-      />
+        strokeWidth="1.2" />
+      
 
       {/* Emoji centred in upper half */}
       <text
@@ -216,15 +216,15 @@ function FileIcon({ label, color, size }: { label: string; color: string; size: 
         opacity="0.95">
         {label}
       </text>
-    </svg>
-  );
+    </svg>);
+
 }
 
 // Simple hex lightener
 function lightenHex(hex: string, amount: number): string {
   const num = parseInt(hex.replace('#', ''), 16);
   const r = Math.min(255, (num >> 16) + Math.round(255 * amount));
-  const g = Math.min(255, ((num >> 8) & 0xff) + Math.round(255 * amount));
+  const g = Math.min(255, (num >> 8 & 0xff) + Math.round(255 * amount));
   const b = Math.min(255, (num & 0xff) + Math.round(255 * amount));
   return `rgb(${r},${g},${b})`;
 }
@@ -233,7 +233,7 @@ function lightenHex(hex: string, amount: number): string {
 function darkenHex(hex: string, amount: number): string {
   const num = parseInt(hex.replace('#', ''), 16);
   const r = Math.max(0, (num >> 16) - Math.round(255 * amount));
-  const g = Math.max(0, ((num >> 8) & 0xff) - Math.round(255 * amount));
+  const g = Math.max(0, (num >> 8 & 0xff) - Math.round(255 * amount));
   const b = Math.max(0, (num & 0xff) - Math.round(255 * amount));
   return `rgb(${r},${g},${b})`;
 }
@@ -496,7 +496,7 @@ export default function PengenalanUnsurPage() {
             const sc = bl.pressScale ?? 1.0;
             const color = BLOCK_COLORS[bl.label]?.hex ?? '#888888';
             // Stagger float animation offset per block id
-            const floatDelay = (bl.id * 0.37) % 2.4;
+            const floatDelay = bl.id * 0.37 % 2.4;
 
             return (
               <div
@@ -515,8 +515,8 @@ export default function PengenalanUnsurPage() {
                   transition: 'filter 0.15s ease'
                 }}>
                 <FileIcon label={bl.label} color={color} size={iconW} />
-              </div>
-            );
+              </div>);
+
           })}
 
           {/* Instruction hint */}

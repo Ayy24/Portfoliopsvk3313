@@ -37,7 +37,7 @@ const SPREADS_DATA = [
   { num: 'C', title: 'Kinetik Interaktif', desc: 'Digerakkan oleh interaksi penonton — sentuhan, bunyi, cahaya atau pergerakan manusia mencetuskan pergerakan arca.' },
   { num: 'D', title: 'Kinetik Air (Water-Driven)', desc: 'Menggunakan air sebagai sumber tenaga, seperti kincir air artistik atau arca yang bergerak dalam atau dengan air.' }],
 
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_45b5f3ed9-1789669528402.png",
+  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_47e7d0e08-1789743581235.png",
   imageAlt: 'Arca kinetik menunjukkan ciri-ciri pergerakan dan penggunaan sumber tenaga'
 },
 {
@@ -73,31 +73,31 @@ const SPREADS_DATA = [
   rightText1: 'Bunyi yang dihasilkan oleh pergerakan bahagian-bahagian arca kinetik menambahkan dimensi auditori kepada pengalaman seni. Bunyi mekanik, geseran logam atau desiran angin menjadi sebahagian daripada karya, mewujudkan pengalaman multi-deria yang kaya dan menyeluruh.',
   rightText2: 'Hubungan antara arca kinetik dan persekitarannya adalah unik — angin, cahaya dan kehadiran manusia mempengaruhi pergerakan arca, menjadikan persekitaran sebahagian daripada karya. Ini mewujudkan dialog antara karya dan ruang yang tidak wujud dalam arca statik.',
   rightText3: 'Dalam konteks seni kontemporari, arca kinetik terus berkembang dengan penggabungan teknologi digital, kecerdasan buatan dan sensor canggih. Arca kinetik interaktif yang responsif kepada penonton mewujudkan pengalaman seni yang peribadi dan unik bagi setiap individu yang berinteraksi dengannya.',
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_48f0d143e-1789738596144.png",
+  imageUrl: "https://images.unsplash.com/photo-1548171050-deddced45685",
   imageAlt: 'Nilai estetika arca kinetik melalui pergerakan dinamik dan interaksi dengan persekitaran'
 }];
 
 
 const BAHAN_DATA = [
 { category: 'Bahan Struktur', items: [
-  { name: 'Kepingan Keluli', imageUrl: "https://images.unsplash.com/photo-1701085595561-2000016a3e35", imageAlt: 'Kepingan keluli untuk struktur arca kinetik' },
+  { name: 'Kepingan Keluli', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1dd0f5252-1766505546339.png", imageAlt: 'Kepingan keluli untuk struktur arca kinetik' },
   { name: 'Aluminium Nipis', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_10d371ebb-1783419725374.png", imageAlt: 'Aluminium nipis ringan untuk bahagian bergerak' },
-  { name: 'Tiub Keluli', imageUrl: "https://images.unsplash.com/photo-1570018415993-4c5b2b0567dc", imageAlt: 'Tiub keluli untuk rangka arca kinetik' },
-  { name: 'Plastik Akrilik', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1cb7a4a56-1772130895372.png", imageAlt: 'Plastik akrilik untuk bahagian kinetik ringan' }]
+  { name: 'Tiub Keluli', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_415fe1158-1789604407497.png", imageAlt: 'Tiub keluli untuk rangka arca kinetik' },
+  { name: 'Plastik Akrilik', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_12e7c7b3d-1774560249547.png", imageAlt: 'Plastik akrilik untuk bahagian kinetik ringan' }]
 },
 { category: 'Komponen Mekanikal', items: [
-  { name: 'Motor Elektrik', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4155f6b33-1789738595413.png", imageAlt: 'Motor elektrik untuk menggerakkan arca kinetik' },
+  { name: 'Motor Elektrik', imageUrl: "https://images.unsplash.com/photo-1615483156702-d7b709bf4143", imageAlt: 'Motor elektrik untuk menggerakkan arca kinetik' },
   { name: 'Gear & Rantai', imageUrl: "https://images.unsplash.com/photo-1703756291772-20527a9d5fe1", imageAlt: 'Gear dan rantai untuk sistem mekanikal' },
-  { name: 'Galas (Bearing)', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_48eb6e70a-1789669528302.png", imageAlt: 'Galas untuk pergerakan licin bahagian kinetik' },
-  { name: 'Engsel & Pivot', imageUrl: "https://images.unsplash.com/photo-1665429333846-37cc811e6b34", imageAlt: 'Engsel dan pivot untuk titik pergerakan' }]
+  { name: 'Galas (Bearing)', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4d70c7c02-1789743581207.png", imageAlt: 'Galas untuk pergerakan licin bahagian kinetik' },
+  { name: 'Engsel & Pivot', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_42a5c3d8a-1789743581240.png", imageAlt: 'Engsel dan pivot untuk titik pergerakan' }]
 },
 { category: 'Komponen Elektronik', items: [
-  { name: 'Mikrokontroler Arduino', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1e53e096d-1769294979498.png", imageAlt: 'Arduino untuk kawalan arca kinetik digital' },
-  { name: 'Sensor Gerak', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_18a3b50ae-1766349500354.png", imageAlt: 'Sensor gerak untuk arca kinetik interaktif' },
+  { name: 'Mikrokontroler Arduino', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_168c73da1-1766292150897.png", imageAlt: 'Arduino untuk kawalan arca kinetik digital' },
+  { name: 'Sensor Gerak', imageUrl: "https://images.unsplash.com/photo-1719100423730-bca1b8b82794", imageAlt: 'Sensor gerak untuk arca kinetik interaktif' },
   { name: 'Bekalan Kuasa', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1b06ce9ae-1774797952055.png", imageAlt: 'Bekalan kuasa untuk motor arca kinetik' }]
 },
 { category: 'Alatan & Kemasan', items: [
-  { name: 'Gerudi & Penebuk', imageUrl: "https://images.unsplash.com/photo-1562613583-0af1ea525b27", imageAlt: 'Gerudi untuk membuat lubang pada bahan' },
+  { name: 'Gerudi & Penebuk', imageUrl: "https://images.unsplash.com/photo-1697071628662-6e14d952d488", imageAlt: 'Gerudi untuk membuat lubang pada bahan' },
   { name: 'Cat Logam', imageUrl: "https://images.unsplash.com/photo-1598077850173-7fc4b5b30750", imageAlt: 'Cat logam untuk kemasan arca kinetik' },
   { name: 'Pelincir Mekanik', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1e0270fe8-1765255146865.png", imageAlt: 'Pelincir untuk bahagian bergerak arca kinetik' }]
 }];
@@ -109,7 +109,7 @@ const KARYA_DATA = [
   artist: 'Jean Tinguely',
   year: '1964',
   desc: 'Mesin kinetik besar yang diperbuat daripada besi terpakai dan komponen industri, bergerak dengan bising dan kacau sebagai kritik terhadap industrialisasi dan kemajuan teknologi yang membuta.',
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4a86a88b9-1789738595876.png",
+  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4b7b4d0ae-1789602794385.png",
   imageAlt: 'Heureka Jean Tinguely 1964 mesin kinetik besi terpakai bergerak bising sebagai kritik industri'
 },
 {
@@ -117,7 +117,7 @@ const KARYA_DATA = [
   artist: 'George Rickey',
   year: '1967',
   desc: 'Arca kinetik keluli tahan karat yang terdiri daripada dua bilah panjang bergerak perlahan dan elegan mengikut angin, menggambarkan keseimbangan sempurna antara kestabilan dan pergerakan bebas.',
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4d30229e7-1789669528373.png",
+  imageUrl: "https://images.unsplash.com/photo-1615483156702-d7b709bf4143",
   imageAlt: 'Two Lines Oblique George Rickey 1967 arca kinetik keluli dua bilah bergerak elegan mengikut angin'
 },
 {
@@ -125,7 +125,7 @@ const KARYA_DATA = [
   artist: 'Len Lye',
   year: '1976',
   desc: 'Arca kinetik keluli berputar pantas karya Len Lye yang menggunakan getaran dan putaran untuk mewujudkan kesan visual yang menakjubkan, menggabungkan seni dengan eksplorasi tenaga dan pergerakan.',
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4f4e4433c-1789669528364.png",
+  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_44cf67f63-1789669528389.png",
   imageAlt: 'Whirligig Len Lye 1976 arca kinetik keluli berputar pantas menggunakan getaran dan tenaga'
 },
 {
@@ -133,7 +133,7 @@ const KARYA_DATA = [
   artist: 'Marcel Duchamp',
   year: '1913',
   desc: 'Karya kinetik terawal dalam sejarah seni moden — roda basikal dipasang terbalik di atas bangku, boleh diputar dengan tangan, menandakan permulaan era seni kinetik dan konsep readymade.',
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4accf8c57-1789738595270.png",
+  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4313a6ac7-1789743581209.png",
   imageAlt: 'Bicycle Wheel Marcel Duchamp 1913 roda basikal terbalik di bangku karya kinetik terawal seni moden'
 }];
 

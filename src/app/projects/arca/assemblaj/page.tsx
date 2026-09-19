@@ -37,7 +37,7 @@ const SPREADS_DATA = [
   { num: 'C', title: 'Assemblaj Bahan Kitar Semula', desc: 'Menggunakan bahan buangan dan kitar semula sebagai medium utama, menyampaikan mesej alam sekitar dan kelestarian.' },
   { num: 'D', title: 'Assemblaj Kotak (Box Assemblage)', desc: 'Objek disusun dalam kotak atau bekas, seperti karya Joseph Cornell yang terkenal dengan kotak-kotak berisi objek puitis.' }],
 
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_469cf601b-1789738115404.png",
+  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4c3e1521b-1789743581280.png",
   imageAlt: 'Contoh arca assemblaj menggunakan pelbagai objek ditemui'
 },
 {
@@ -73,36 +73,36 @@ const SPREADS_DATA = [
   rightText1: 'Tekstur, warna dan bentuk pelbagai objek yang digabungkan dalam satu komposisi menghasilkan kekayaan visual yang tidak dapat dicapai melalui medium tunggal. Kontras antara bahan yang berbeza — kasar dan halus, berkilat dan kusam, organik dan industri — mewujudkan dialog visual yang menarik dan dinamik.',
   rightText2: 'Dimensi naratif dan konseptual assemblaj menambahkan lapisan makna yang mendalam. Setiap objek membawa sejarah dan konteks tersendiri, dan apabila digabungkan, ia mewujudkan naratif baharu yang lebih kompleks. Penonton dijemput untuk mentafsir hubungan antara objek dan membina makna mereka sendiri.',
   rightText3: 'Dalam konteks seni Malaysia kontemporari, assemblaj digunakan oleh pengkarya untuk menyampaikan isu sosial, budaya dan alam sekitar. Penggunaan bahan tempatan dan objek yang bermakna secara budaya menjadikan assemblaj sebagai medium yang berkesan untuk menyuarakan identiti dan pengalaman Malaysia.',
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_44c384a60-1789669528386.png",
+  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4de2015b8-1789596424256.png",
   imageAlt: 'Nilai estetika arca assemblaj melalui gabungan pelbagai objek dan bahan'
 }];
 
 
 const BAHAN_DATA = [
 { category: 'Objek Ditemui', items: [
-  { name: 'Botol & Tin Terpakai', imageUrl: "https://images.unsplash.com/photo-1595278069441-2cf29f8005a4", imageAlt: 'Botol dan tin terpakai untuk assemblaj' },
+  { name: 'Botol & Tin Terpakai', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_12f6a49d4-1772806482956.png", imageAlt: 'Botol dan tin terpakai untuk assemblaj' },
   { name: 'Kayu Terbuang', imageUrl: "https://images.unsplash.com/photo-1658574011536-7096772a50a2", imageAlt: 'Kepingan kayu terbuang untuk assemblaj' },
   { name: 'Komponen Elektronik', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1b1a85a7e-1772116727934.png", imageAlt: 'Komponen elektronik terpakai untuk assemblaj' },
-  { name: 'Kain & Tekstil', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1d6494cc0-1773126346620.png", imageAlt: 'Kain dan tekstil untuk assemblaj' },
-  { name: 'Logam Terbuang', imageUrl: "https://images.unsplash.com/photo-1730571627640-5d09f6b5d56f", imageAlt: 'Kepingan logam terbuang untuk assemblaj' }]
+  { name: 'Kain & Tekstil', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1346213ed-1786185083091.png", imageAlt: 'Kain dan tekstil untuk assemblaj' },
+  { name: 'Logam Terbuang', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_18d040a54-1772632232075.png", imageAlt: 'Kepingan logam terbuang untuk assemblaj' }]
 },
 { category: 'Bahan Penyambung', items: [
-  { name: 'Gam Epoksi', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_10d5e4a8b-1782209940436.png", imageAlt: 'Gam epoksi untuk menyambung objek assemblaj' },
+  { name: 'Gam Epoksi', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_14846f57f-1783684964995.png", imageAlt: 'Gam epoksi untuk menyambung objek assemblaj' },
   { name: 'Wayar & Tali', imageUrl: "https://images.unsplash.com/photo-1511624256781-23af4faf2fde", imageAlt: 'Wayar dan tali untuk mengikat objek assemblaj' },
   { name: 'Skru & Paku', imageUrl: "https://images.unsplash.com/photo-1466263726597-c2c4c0c9e0d5", imageAlt: 'Skru dan paku untuk menyambung bahan keras' },
   { name: 'Gam Panas (Hot Glue)', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1473b51da-1766747473657.png", imageAlt: 'Gam panas untuk menyambung pelbagai bahan' }]
 },
 { category: 'Alatan', items: [
-  { name: 'Gergaji & Pemotong', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1253939cd-1765702728839.png", imageAlt: 'Gergaji untuk memotong bahan assemblaj' },
+  { name: 'Gergaji & Pemotong', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_14d8554a5-1773040908753.png", imageAlt: 'Gergaji untuk memotong bahan assemblaj' },
   { name: 'Peralatan Kimpalan', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1298a33e7-1769694089720.png", imageAlt: 'Peralatan kimpalan untuk logam' },
-  { name: 'Gerudi', imageUrl: "https://images.unsplash.com/photo-1562613583-0af1ea525b27", imageAlt: 'Gerudi untuk membuat lubang pada bahan' },
-  { name: 'Tang & Playar', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1d48d8ea7-1772076199220.png", imageAlt: 'Tang dan playar untuk membentuk wayar' }]
+  { name: 'Gerudi', imageUrl: "https://images.unsplash.com/photo-1697071628662-6e14d952d488", imageAlt: 'Gerudi untuk membuat lubang pada bahan' },
+  { name: 'Tang & Playar', imageUrl: "https://images.unsplash.com/photo-1665632498348-768188fe85c5", imageAlt: 'Tang dan playar untuk membentuk wayar' }]
 },
 { category: 'Bahan Kemasan', items: [
-  { name: 'Cat Semburan', imageUrl: "https://images.unsplash.com/photo-1610493471869-a6e3da6c6713", imageAlt: 'Cat semburan untuk kemasan assemblaj' },
+  { name: 'Cat Semburan', imageUrl: "https://images.unsplash.com/photo-1578152532108-3429ebaaade3", imageAlt: 'Cat semburan untuk kemasan assemblaj' },
   { name: 'Cat Akrilik', imageUrl: "https://images.unsplash.com/photo-1702632212348-da0fd59b244d", imageAlt: 'Cat akrilik untuk mewarna objek assemblaj' },
-  { name: 'Vernish Pelindung', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_497958ca3-1789669528313.png", imageAlt: 'Vernish untuk melindungi permukaan assemblaj' },
-  { name: 'Patina & Pewarna Logam', imageUrl: "https://images.unsplash.com/photo-1645865163180-aba3a050feeb", imageAlt: 'Patina untuk kemasan logam assemblaj' }]
+  { name: 'Vernish Pelindung', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_162955fae-1765513269713.png", imageAlt: 'Vernish untuk melindungi permukaan assemblaj' },
+  { name: 'Patina & Pewarna Logam', imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1900280e4-1768750498337.png", imageAlt: 'Patina untuk kemasan logam assemblaj' }]
 }];
 
 

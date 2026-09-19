@@ -593,7 +593,7 @@ const Screen2 = () =>
 
     <FadeIn delay={160}>
       <ImageCard
-      src="https://img.rocket.new/generatedImages/rocket_gen_img_142cfea7e-1772099134888.png"
+      src="https://img.rocket.new/generatedImages/rocket_gen_img_1bc3c661a-1781091827837.png"
       alt="Kanak-kanak sekolah rendah membina model bangunan menggunakan kadbod dan bahan kitar semula di dalam kelas"
       caption="Murid membina model bangunan — menyelesaikan masalah kestabilan struktur"
       height={220} />
@@ -886,7 +886,7 @@ const Screen5 = () =>
 
     <FadeIn delay={160}>
       <ImageCard
-      src="https://img.rocket.new/generatedImages/rocket_gen_img_4daf2a590-1789719437527.png"
+      src="https://images.unsplash.com/photo-1670192970065-43c21094d5eb"
       alt="Diorama habitat hutan yang menunjukkan pelbagai unsur seni visual seperti warna, saiz dan jalinan yang dihasilkan oleh murid"
       caption="Diorama Habitat Hutan — unsur seni digunakan secara sedar"
       height={220} />

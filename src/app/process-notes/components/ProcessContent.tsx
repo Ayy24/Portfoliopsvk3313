@@ -294,9 +294,9 @@ export default function ProcessContent() {
           }}>
           
           {/* BENTO AUDIT: 4 mood items in 2x2 grid
-                Row 1: [col-1: Light+Structure cs-1] [col-2: Form Reference cs-1]
-                Row 2: [col-1: Texture Study cs-1] [col-2: Cultural Ref cs-1]
-                Placed 4/4 ✓ */}
+                 Row 1: [col-1: Light+Structure cs-1] [col-2: Form Reference cs-1]
+                 Row 2: [col-1: Texture Study cs-1] [col-2: Cultural Ref cs-1]
+                 Placed 4/4 ✓ */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             {moodItems?.map((item, i) => (
             /* Mood item {i} */

@@ -22,7 +22,7 @@ const PRINSIP_DATA: PrinsipItem[] = [
   label: 'Harmoni',
   description: 'Harmoni merujuk kepada keserasian antara unsur seni yang menghasilkan kesan visual yang menyenangkan dan tidak bercanggah.',
   // Harmonious colour palette / complementary colour wheel — accurate for Harmoni
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4b1cfb045-1789672553715.png",
+  imageUrl: "https://images.unsplash.com/photo-1682846134047-3e0ea26c70d8",
   imageAlt: 'Harmoni — susunan warna dan bentuk yang selaras dan harmoni dalam seni',
   color: '#C8384A',
   colorLight: 'rgba(200,56,74,0.18)'
@@ -44,7 +44,7 @@ const PRINSIP_DATA: PrinsipItem[] = [
   label: 'Kesatuan',
   description: 'Kesatuan merujuk kepada hubungan yang erat antara unsur dan bahagian karya sehingga membentuk satu komposisi yang lengkap dan menyeluruh.',
   // Mosaic / unified pattern — accurate for Kesatuan
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4709b7bee-1789672553726.png",
+  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_41d574e20-1789743580359.png",
   imageAlt: 'Kesatuan — corak dan elemen yang bersatu membentuk satu komposisi menyeluruh',
   color: '#D4780A',
   colorLight: 'rgba(212,120,10,0.18)'
@@ -55,7 +55,7 @@ const PRINSIP_DATA: PrinsipItem[] = [
   label: 'Kontra',
   description: 'Kontra terhasil melalui perbezaan antara unsur seperti warna, bentuk, saiz, jalinan atau ruang. Kontra dapat mewujudkan penegasan dan menarik perhatian terhadap bahagian tertentu karya.',
   // High contrast black & white / light & dark — accurate for Kontra
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4213b8812-1789672553754.png",
+  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4d4a586be-1789743581291.png",
   imageAlt: 'Kontra — perbezaan warna terang dan gelap yang ketara dalam karya seni',
   color: '#7B2FA0',
   colorLight: 'rgba(123,47,160,0.18)'
@@ -66,7 +66,7 @@ const PRINSIP_DATA: PrinsipItem[] = [
   label: 'Penegasan',
   description: 'Penegasan ialah penonjolan sesuatu unsur atau bahagian tertentu sebagai fokus utama dalam karya. Ia boleh dicapai melalui perbezaan warna, saiz, bentuk, kedudukan atau jalinan.',
   // Single focal point / spotlight — accurate for Penegasan
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4027d5090-1789672553396.png",
+  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_40312cea4-1789743581255.png",
   imageAlt: 'Penegasan — satu elemen menonjol sebagai fokus utama yang menarik perhatian',
   color: '#2E8B4A',
   colorLight: 'rgba(46,139,74,0.18)'
@@ -77,7 +77,7 @@ const PRINSIP_DATA: PrinsipItem[] = [
   label: 'Irama dan Pergerakan',
   description: 'Irama terhasil daripada pengulangan atau susunan unsur secara tertentu, manakala pergerakan merujuk kepada kesan gerak yang wujud secara fizikal atau secara visual. Prinsip ini amat ketara dalam karya seperti arca mobail dan arca kinetik.',
   // Repeating wave / rhythm pattern — accurate for Irama dan Pergerakan
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_45fbaa8a0-1789672552804.png",
+  imageUrl: "https://images.unsplash.com/photo-1634805370549-0781f4ee32c9",
   imageAlt: 'Irama dan Pergerakan — gelombang berulang yang menunjukkan irama dan pergerakan visual',
   color: '#C04A20',
   colorLight: 'rgba(192,74,32,0.18)'
@@ -88,7 +88,7 @@ const PRINSIP_DATA: PrinsipItem[] = [
   label: 'Kepelbagaian',
   description: 'Kepelbagaian merujuk kepada penggunaan variasi unsur seperti bentuk, saiz, warna, jalinan dan bahan bagi mengelakkan karya kelihatan monoton serta meningkatkan daya tarikan visual.',
   // Variety of colourful flowers / diverse elements — accurate for Kepelbagaian
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_16a5140b3-1774470262957.png",
+  imageUrl: "https://images.unsplash.com/photo-1678450610037-2976981fad0c",
   imageAlt: 'Kepelbagaian — pelbagai jenis bunga berwarna-warni menunjukkan variasi dan kepelbagaian',
   color: '#0E8A9E',
   colorLight: 'rgba(14,138,158,0.18)'

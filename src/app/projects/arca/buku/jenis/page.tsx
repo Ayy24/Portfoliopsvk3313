@@ -36,7 +36,7 @@ const ARCA_TYPES: ArcaType[] = [
   id: 'assemblaj',
   name: 'Arca Assemblaj',
   description: 'Arca assemblaj ialah karya seni tiga dimensi yang dibina dengan mengumpulkan dan menyusun pelbagai objek atau bahan ditemui (found objects) menjadi satu komposisi baharu. Teknik ini menekankan kreativiti dalam mengubah fungsi objek seharian menjadi karya seni yang bermakna dan berimpak.',
-  imageUrl: "https://images.unsplash.com/photo-1501176625204-f01415bb0d70",
+  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_4de2015b8-1789596424256.png",
   imageAlt: 'Arca assemblaj karya Picasso menggunakan objek ditemui yang disusun menjadi komposisi seni tiga dimensi',
   headerColor: '#70C870',
   tabColor: '#4AA84A'
@@ -72,7 +72,7 @@ const ARCA_TYPES: ArcaType[] = [
   id: 'kinetik',
   name: 'Arca Kinetik',
   description: 'Arca kinetik ialah arca yang mengandungi elemen bergerak, sama ada digerakkan oleh motor, angin, air atau tenaga lain. Pergerakan menjadi sebahagian daripada karya seni itu sendiri. Arca kinetik meneroka hubungan antara masa, ruang dan pergerakan, mewujudkan pengalaman visual yang dinamik dan sentiasa berubah.',
-  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_45e5fde05-1789596424114.png",
+  imageUrl: "https://img.rocket.new/generatedImages/rocket_gen_img_1f2112162-1767597496008.png",
   imageAlt: 'Arca kinetik Heureka karya Jean Tinguely dengan bahagian logam bergerak digerakkan oleh motor di Zurich Switzerland',
   headerColor: '#60C0C0',
   tabColor: '#40A0A0'
